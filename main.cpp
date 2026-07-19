@@ -7,8 +7,11 @@
 
 #define LOG(L, ...) std::cout << "[" << __FUNCTION__ << "][" << #L << "] " << __VA_ARGS__ << std::dec << std::endl;
 
-static std::vector<DWORD> pids_by_name(const std::wstring &target)
+static std::vector<DWORD> pids_by_name()
 {
+    auto name_a = std::wstring(L"osrswindows.exe");
+    auto name_b = std::wstring(L"osclient.exe");
+
     std::vector<DWORD> pids;
 
     PROCESSENTRY32W entry;
@@ -29,7 +32,7 @@ static std::vector<DWORD> pids_by_name(const std::wstring &target)
 
     do
     {
-        if (target == entry.szExeFile)
+        if (name_a == entry.szExeFile || name_b == entry.szExeFile)
         {
             pids.push_back(entry.th32ProcessID);
         }
