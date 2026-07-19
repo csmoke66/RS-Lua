@@ -120,7 +120,7 @@ int main(int argc, char **args)
     uint64_t base;
     int ret = 0;
 
-    pids = pids_by_name(L"osrswindows.exe");
+    pids = pids_by_name();
     if (pids.empty())
     {
         LOG(ERROR, "Failed to find osrswindows.exe");
