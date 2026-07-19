@@ -21,6 +21,7 @@ add_executable(AdminPatcher
 )
 
 target_link_options(AdminPatcher PRIVATE
+    -s
     -static
     -static-libgcc
     -static-libstdc++
@@ -31,4 +32,8 @@ target_compile_options(AdminPatcher PRIVATE
     -Wall
     -Wextra
     -Wpedantic
+)
+
+add_custom_command(TARGET AdminPatcher POST_BUILD
+    COMMAND ${CMAKE_STRIP} $<TARGET_FILE:AdminPatcher>
 )
