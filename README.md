@@ -1,7 +1,7 @@
 ![wow](media.png)
 You can open the developer console with alt + grave key.  
   
-Plugins go in `X:/users/youruser/AppData/Local/Jagex/Old School Runescape/Plugins/pluginname` and must have a `index.lua` and optionally a `settings.lua`. You can see example plugins by the jmods in `default_plugins`.
+Plugins go in `X:/users/youruser/AppData/Local/Jagex/Old School Runescape/Plugins/pluginname` and must have a `index.json` and optionally a `settings.lua`. You can see example plugins by the jmods in `default_plugins`.
 ## Commands
 
 ### luaplugin 
