@@ -1,0 +1,19 @@
+{
+    "npcBox": {"label":"Hide NPCs", "value":false, "type":"checkbox"},
+    "npc2DBox": {"label":"Hide NPCs 2D", "value":false, "type":"checkbox"},
+    "playerBox": {"label":"Hide Players", "value":false, "type":"checkbox"},
+    "player2DBox": {"label":"Hider Player 2D", "value":false, "type":"checkbox"},
+    "projectileBox": {"label":"Hide Projectiles", "value":false, "type":"checkbox"},
+    "friendBox": {"label":"Hide Friends", "value":false, "type":"checkbox"},
+    "otherBox": {"label":"Hide Others", "value":false, "type":"checkbox"},
+    "chatFriendBox": {"label":"Hide Chat Friends", "value":false, "type":"checkbox"},
+    "ignoredBox": {"label":"Hide Ignored", "value":false, "type":"checkbox"},
+    "localBox": {"label":"Hide Local", "value":false, "type":"checkbox"},
+    "local2DBox": {"label":"Hide Local 2D", "value":false, "type":"checkbox"},
+    "clanBox": {"label":"Hide Clan", "value":false, "type":"checkbox"},
+    "otherFollowerBox": {"label":"Hide Other Followers", "value":false, "type":"checkbox"},
+    "deadNpcBox": {"label":"Hide Dead NPCs", "value":false, "type":"checkbox"},
+    "attackerBox": {"label":"Hide Attackers", "value":false, "type":"checkbox"},
+    "thrallBox": {"label":"Hide Thralls", "value":false, "type":"checkbox"},
+    "eventBox": {"label":"Hide Random Events", "value":false, "type":"checkbox"}
+}

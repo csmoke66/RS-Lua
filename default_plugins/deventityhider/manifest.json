@@ -1,0 +1,14 @@
+{
+    "name" : "Bob's Fancy Plugin",
+    "version" : "1.0.0",
+    "description" : "A color palette tweaker for the game UI",
+    "main"  : "index.lua",
+    "author" : "Bob Soandso",
+    "api_version" : "0.0.1",
+    "settings": {
+        "awesomeMode": {"label":"Awesome Mode Enabled", "value":false },
+        "awesomeLevel": {"label":"Awesome Level", "min":0, "max":10, "value":0},
+        "widgetColour": { "label": "Widget Colour", "value":"0xFF0000FF", "type":"colour"},
+        "spiciness":{"label":"How Spicy?", "options":["mild", "medium", "hot", "extra-hot"], "value":"mild"}
+      }
+}
