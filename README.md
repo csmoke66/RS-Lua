@@ -34,7 +34,7 @@ Uninstalls an existing plugin.
 	* Uninstalls all plugins
 * --keep-data
 	* Keeps the physical script files on disk
-#### --dev
+### --dev
 Developer commands.
 ##### Sub-options:
 * --restart
